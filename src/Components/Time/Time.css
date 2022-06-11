@@ -1,0 +1,16 @@
+.time-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 350px;
+  height: 130px;
+  font-size: 35px;
+  background: #222;
+  color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.time-span {
+  letter-spacing: 3px;
+}
