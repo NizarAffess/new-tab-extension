@@ -1,4 +1,4 @@
-# Chrome new tab extension (Winky Widgets)
+# Chrome new tab extension ([Winky Widgets](https://chrome.google.com/webstore/detail/winky-widgets/mfgcpbcdabageodfebcphkcidhfgcghl))
 
 
 ## Introduction:
