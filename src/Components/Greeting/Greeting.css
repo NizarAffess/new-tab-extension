@@ -1,0 +1,22 @@
+.greeting {
+  text-align: center;
+  line-height: 25px;
+}
+
+.greeting-form input {
+  /* display: block; */
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  background: transparent;
+  border: none;
+  font-size: 35px;
+  caret-color: #fff;
+  outline: none;
+  text-align: center;
+  color: #fff;
+}
+
+.user-name {
+  font-weight: bold;
+}
