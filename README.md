@@ -1,12 +1,12 @@
-# Chrome new tab extension (Winky Widgets)
+# Chrome new tab extension ([Winky Widgets](https://chrome.google.com/webstore/detail/winky-widgets/mfgcpbcdabageodfebcphkcidhfgcghl))
 
 
 ## Introduction:
 In this series we're going to see how to create a Chrome extension with React. 
 
-We're going to build 6 React apps and combine them into one single interface to form a Chrome extension that gets opened on every new tab. 
+We're going to build **6 React apps** and combine them into one single interface to form a Chrome extension that gets opened on every new tab. 
 
-This project features 6 widgets (Time and date component, Greeting component, Weather app, Crypto rates app, Todos app and a Bookmarker app).
+This project features 6 widgets (**Time and date component, Greeting component, Weather app, Crypto rates app, Todos app and a Bookmarker app**).
 
 We'll cover a bunch of modern JavaScript concepts by consuming 3 free external APIs and saving data to the browser's localStorage.
 
