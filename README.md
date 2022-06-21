@@ -18,7 +18,7 @@ Here's the list of the tutorials (unchecked ones will be uploaded **one-tutorial
 
 - [x] [Time component](https://www.youtube.com/watch?v=jWpqpUqb5rI) | [commit](https://github.com/NizarAffess/new-tab-extension/commit/6313b997f1cbe1d22557f87fc7137a950e2f292d). 
 - [x] [Greeting component](https://www.youtube.com/watch?v=BerwuXS6_Mc) | [commit](https://github.com/NizarAffess/new-tab-extension/commit/9b533f8a67f8131ee2437997babf9af6bb07e130).
-- [ ] Weather app. 
+- [x] [Weather app](https://www.youtube.com/watch?v=A3w_cecWiUE) | [commit](https://github.com/NizarAffess/new-tab-extension/commit/53a0b0ad927139b1808add476b9726fff88c3bcc). 
 - [ ] Crypto app. 
 - [ ] Todos app. 
 - [ ] Bookmarks app. 
