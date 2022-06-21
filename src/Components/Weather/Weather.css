@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+  border-radius: 16px;
+  width: 300px;
+  height: 270px;
+  padding: 15px;
+  background: linear-gradient(-45deg, #222, rgb(41, 106, 247));
+  transition: 0.4s ease-out;
+}
+
+.weather-warm {
+  background: linear-gradient(-45deg, #222, rgb(248, 138, 11));
+  transition: 0.4s ease-out;
+}
+
+.search-box {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  transition: 0.4s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar-not-shown {
+  transform: translateY(-200%);
+}
+
+.bar-shown {
+  transform: translateY(0%);
+}
+
+.search-box .search-bar {
+  padding: 15px;
+  flex: 1;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  color: #313131;
+  font-size: 20px;
+  transition: 0.3s ease;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn-close {
+  position: absolute;
+  top: 10px;
+  right: 6px;
+  background: transparent;
+  border: none;
+  padding: 5px 9px;
+  font-size: 20px;
+}
+
+.search-box .search-bar:focus {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.weather-widget {
+  text-align: center;
+  color: #fff;
+}
+
+.clean-search {
+  margin: 0.5em;
+}
+
+.weather-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-box .temp {
+  margin-right: 10px;
+  font-size: 45px;
+  font-weight: 900;
+  text-align: left;
+}
+
+.weather-box .temp .celcius {
+  margin-bottom: 5px;
+}
+
+.weather-box .main {
+  font-size: 25px;
+}
+
+.weather-icon {
+  margin-right: -15px;
+  margin-bottom: -6px;
+}
+
+.weather-icon img {
+  width: 140px;
+  height: 140px;
+}
+
+.weather-widget .location {
+  font-size: 30px;
+  padding: 5px 4px 12px;
+}
+
+.btn-search {
+  background: #fff;
+  border: none;
+  font-weight: bold;
+  color: #222;
+  padding: 4px 7px;
+  border-radius: 3px;
+  margin-top: -2em;
+  transition: 0.2s ease-in-out;
+}
