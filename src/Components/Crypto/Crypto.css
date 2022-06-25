@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+.crypto-card {
+  color: #fff;
+  max-width: 400px;
+  width: 300px;
+  height: 270px;
+  background: #222;
+  border-radius: 10px;
+  text-align: center;
+  padding: 7px;
+  font-family: "Nova square", cursive;
+}
+
+.crypto-heading {
+  margin: 6px auto 12px;
+}
+
+.btn-input,
+.coin-rate {
+  text-transform: uppercase;
+}
+
+.btn-input {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 7px 10px;
+  letter-spacing: 1px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-coin {
+  color: #eee;
+}
+
+.btn-fetch {
+  background: #fff;
+  border: none;
+  font-weight: bold;
+  color: #222;
+  padding: 4px 7px;
+  margin: 15px;
+}
+
+.coin-rate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  padding: 7px;
+  margin: 7px 15px;
+  background: #eee;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.coin-logo {
+  background: transparent;
+  width: 35px;
+  height: 35px;
+}
+
+.search-failed {
+  font-size: 14px;
+  margin: 0px auto;
+}
