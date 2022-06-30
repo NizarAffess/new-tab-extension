@@ -1,0 +1,117 @@
+.todo-card {
+  width: 350px;
+  height: 270px;
+  background: #222;
+  border-radius: 10px;
+  padding: 7px;
+  align-self: center;
+  color: #fff;
+}
+
+.todos-wrapper {
+  padding: 2px 5px;
+  height: 256px;
+  overflow-y: auto;
+}
+
+.todo-heading {
+  margin: 5px auto;
+  text-align: center;
+}
+
+.check-box {
+  margin-right: 5px;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.todo-form,
+.todo-controls {
+  display: flex;
+  align-items: center;
+}
+
+.todo-input {
+  background: transparent;
+  border: none;
+  color: #fff;
+  outline: none;
+  font-size: 18px;
+  flex: 1;
+  /*Fill the remaining space's width*/
+}
+
+.todo-input::placeholder {
+  color: #ddd;
+}
+
+.todo-form,
+.todo-item {
+  margin: 7px;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  padding: 4px 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-wrapper {
+  display: flex;
+}
+
+/* Limit number of characters */
+.todo-text {
+  max-width: 230px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.todo-controls {
+  align-items: center;
+  margin-left: auto;
+}
+
+.todo-controls>* {
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.btn-control {
+  cursor: pointer;
+}
+
+.btn-add {
+  background: #fff;
+  border: none;
+  font-weight: bold;
+  color: #222;
+  padding: 4px 7px;
+  border-radius: 3px;
+}
+
+.input-edit {
+  font-size: 16px;
+}
+
+.todo-edit {
+  padding: 2.7px 0;
+}
+
+.btn-edit {
+  margin-left: 4px;
+}
+
+.completed {
+  color: #979797;
+}
+
+.cancel {
+  color: #979797;
+  background: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
