@@ -14,7 +14,6 @@ The [extension](https://chrome.google.com/webstore/detail/winky-widgets/mfgcpbcd
 
 ## List of tutorials:
 This is the official repository of the youtube tutorial playlist:
-Here's the list of the tutorials:
 
 - [x] [Time component](https://www.youtube.com/watch?v=jWpqpUqb5rI) | [commit](https://github.com/NizarAffess/new-tab-extension/commit/6313b997f1cbe1d22557f87fc7137a950e2f292d). 
 - [x] [Greeting component](https://www.youtube.com/watch?v=BerwuXS6_Mc) | [commit](https://github.com/NizarAffess/new-tab-extension/commit/9b533f8a67f8131ee2437997babf9af6bb07e130).
